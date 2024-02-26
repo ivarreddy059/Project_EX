@@ -12,7 +12,7 @@ pipeline {
         stage('Build image'){
         steps{
             script {
-                sh 'docker build -t test .'
+                sh 'docker build -t demo-image .'
     }
 }
 }
